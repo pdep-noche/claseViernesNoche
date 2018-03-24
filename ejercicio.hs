@@ -37,7 +37,7 @@ pedro :: Persona
 pedro = Gimnasta "pedro" 8
 
 
-aplica f (num, otro, otroNum ) = (f num, f otro, f otroNum)
+aplica f (num, otro, otroNum) = (f num, f otro, f otroNum)
 
 
 
