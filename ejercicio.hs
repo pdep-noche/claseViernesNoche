@@ -36,8 +36,12 @@ julia = Gimnasta "julia" 10
 pedro :: Persona
 pedro = Gimnasta "pedro" 8
 
-
+--aplica :: (Integer -> Integer) -> (Integer, Integer, Integer) -> (Integer, Integer, Integer)
 aplica f (num, otro, otroNum) = (f num, f otro, f otroNum)
+
+
+suma''':: (Integer, Integer, Integer) -> (Integer, Integer, Integer)
+suma''' (x, y, z) = (2*x, y, z)
 
 
 
